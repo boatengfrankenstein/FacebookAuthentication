@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpotBot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="APP_ID">738960499544384</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="welcome">WELCOME</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+</resources>

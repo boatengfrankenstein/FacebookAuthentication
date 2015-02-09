@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.boakye.daniel.facebookauthentication.FaceBookLoginActivity"
+    >
+
+    <fragment android:name="com.boakye.daniel.facebookauthentication.SelectionFragment"
+        android:id="@+id/selectionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        tools:layout="@layout/fragment_selection"
+         />
+    <fragment android:name="com.boakye.daniel.facebookauthentication.SplashFragment"
+        android:id="@+id/splashFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_splash"
+        />
+
+    <fragment android:name="com.facebook.widget.UserSettingsFragment"
+        android:id="@+id/userSettingsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
